@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>DatingSite</title>
-    <link rel="stylesheet" href="css/Styles.css">
+   <!-- <link rel="stylesheet" href="css/Styles.css">-->
 </head>
-<body>
-<h1>Please Enter Info</h1>
+<!--<body>
+<h1>Please Enter Your Details For Our Dating Website!</h1>
 
 <fieldset>
 <legend>Your Face</legend>
+   Your Image
+    <input type="file" name="img">
+    <div>Image Preview</div>
 </fieldset>
 
 <br>
 
 <fieldset>
     <legend>Your General Details</legend>
+    <label for="Email">Email:</label> <input id="Email" type="email" name="usremail">
 </fieldset>
 
 <br>
@@ -35,5 +39,165 @@
 </fieldset>
 
 
+
+
+
+
+
+
+
+</body>-->
+<body>
+<body>
+<h1>Please Enter Your Details For Our Dating Website!</h1>
+<!-- Your Face --> <fieldset>
+    <legend>Your Face</legend>
+    <!-- Face Image and Preview -->
+    <table id="facetable">
+        <tr>
+            <td class="col1">
+                <label for="faceimg">Your Image:</label>
+            </td>
+            <td class="col2">
+                <input id="faceimg" type="file" required>
+            </td>
+        </tr>
+        <tr>
+            <td class="col1">
+                <label for="preview">Image Preview:</label>
+            </td>
+            <td class="col2">
+                <img id="preview" src="">
+            </td>
+        </tr>
+    </table>
+</fieldset>
+<br>
+<!-- General Details --> <fieldset>
+    <legend>Your General Details</legend>
+    <!-- General Information Table -->
+    <!-- Info Table --> <table>
+    <!-- Name --> <tr>
+    <td class="col1">
+        <label for="name">Name:</label>
+    </td>
+    <td class="col2">
+        <input id="name" type="text" required>
+    </td>
+</tr>
+    <!-- Gender --> <tr>
+    <td class="col1">
+        <label for="gender">Gender:</label>
+    </td>
+    <td class="col2">
+        <input id="gender" name="gender" type="radio" required><label>Male</label>
+        <input id="gender" name="gender" type="radio" required><label>Female</label>
+    </td>
+</tr>
+    <!-- Age --> <tr>
+    <td class="col1">
+        <label for="age">Age:</label>
+    </td>
+    <td class="col2">
+        <input id="age" type="number" required>
+    </td>
+</tr>
+    <!-- Date of Birth --> <tr>
+    <td class="col1">
+        <label for="dob">Date of Birth:</label>
+    </td>
+    <td class="col2">
+        <input id="dob" type="date" required>
+    </td>
+</tr>
+    <!-- Color --> <tr>
+    <td>
+        <label for="color">Favourite Color:</label>
+    </td>
+    <td>
+        <input id="color" type="color">
+    </td>
+</tr>
+    <!-- Country --> <tr>
+    <td>
+        <label for="country">Which Country:</label>
+    </td>
+    <td>
+        <select id="country">
+            <option value="Country Not Listed">Country Not Listed</option>
+            <option value="United States">United States</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Canada">Canada</option>
+            <option value="Russia">Russia</option>
+            <option value="China">China</option>
+            <option value="Mexico">Mexico</option>
+
+    </td>
+</tr>
+</table>
+</fieldset>
+<br>
+<!-- Your Indicators --> <fieldset>
+    <legend>Your Indicators</legend>
+    <!-- Info Table --> <table>
+    <!-- Height Slider --> <tr>
+    <td class="col1">
+        <label for="height">Height:</label>
+    </td>
+    <td>
+        <label class="sliderlabel">Short</label>
+        <input id="height" type="range" min="0" max="100">
+        <label class="sliderlabel">Tall</label>
+    </td>
+</tr>
+    <!-- Salary Slider --> <tr>
+    <td class="col1">
+        <label for="salary">Salary:</label>
+    </td>
+    <td>
+        <label class="sliderlabel">Poor</label>
+        <input id="salary" type="range" min="0" max="100">
+        <label class="sliderlabel">Rich</label>
+    </td>
+</tr>
+</table>
+</fieldset>
+<br>
+<!-- Contact Information --> <fieldset>
+    <legend>Your Contact Information</legend>
+    <!-- Info Table --> <table>
+    <!-- Email --> <tr>
+    <td class="col1">
+        <label for="email">Email:</label>
+    </td>
+    <td class="col2">
+        <input id="email" type="text" required>
+    </td>
+</tr>
+    <!-- Mobile Phone --> <tr>
+    <td class="col1">
+        <label for="mobile">Mobile Phone:</label>
+    </td>
+    <td class="col2">
+        <input id="mobile" type="tel">
+    </td>
+</tr>
+    <tr>
+        <td class="col1">
+            <label class="label" for="address">Address:</label>
+        </td>
+        <td>
+            <textarea></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+    </tr>
+</table>
+</fieldset>
+</body>
 </body>
 </html>
