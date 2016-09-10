@@ -1,1 +1,2 @@
 fieldset {border:solid ;border-color: yellow; background-color: lightyellow; border-width: 10px;}
+label {display: inline-block; width:180px ; text-align: right}
