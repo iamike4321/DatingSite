@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9ea6e40-5611-45b7-8609-b6628891f58f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DatingSite.html" afterPath="$PROJECT_DIR$/DatingSite.html" />
     </list>
     <ignored path="DatingSite.iws" />
@@ -27,12 +26,13 @@
       <file leaf-file-name="DatingSite.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DatingSite.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+            <state relative-caret-position="919">
+              <caret line="377" column="0" selection-start-line="377" selection-start-column="0" selection-end-line="377" selection-end-column="0" />
               <folding>
                 <element signature="e#162#709#0" expanded="false" />
-                <marker date="1473465164000" expanded="false" signature="548:586" ph="..." />
-                <marker date="1473465164000" expanded="false" signature="629:676" ph="..." />
+                <element signature="n#select#0;n#td#1;n#tr#5;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1473465664000" expanded="false" signature="548:586" ph="..." />
+                <marker date="1473465664000" expanded="false" signature="629:676" ph="..." />
               </folding>
             </state>
           </provider>
@@ -207,7 +207,7 @@
       <option name="presentableId" value="Default" />
       <updated>1473376914569</updated>
       <workItem from="1473376916055" duration="4919000" />
-      <workItem from="1473461859710" duration="3103000" />
+      <workItem from="1473461859710" duration="3600000" />
     </task>
     <task id="LOCAL-00001" summary="space">
       <created>1473382675480</created>
@@ -220,7 +220,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8022000" />
+    <option name="totallyTimeSpent" value="8519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -298,8 +298,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#162#709#0" expanded="false" />
-            <marker date="1473465164000" expanded="false" signature="548:586" ph="..." />
-            <marker date="1473465164000" expanded="false" signature="629:676" ph="..." />
+            <element signature="n#select#0;n#td#1;n#tr#5;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1473465664000" expanded="false" signature="548:586" ph="..." />
+            <marker date="1473465664000" expanded="false" signature="629:676" ph="..." />
           </folding>
         </state>
       </provider>
@@ -336,12 +337,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DatingSite.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        <state relative-caret-position="919">
+          <caret line="377" column="0" selection-start-line="377" selection-start-column="0" selection-end-line="377" selection-end-column="0" />
           <folding>
             <element signature="e#162#709#0" expanded="false" />
-            <marker date="1473465164000" expanded="false" signature="548:586" ph="..." />
-            <marker date="1473465164000" expanded="false" signature="629:676" ph="..." />
+            <element signature="n#select#0;n#td#1;n#tr#5;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1473465664000" expanded="false" signature="548:586" ph="..." />
+            <marker date="1473465664000" expanded="false" signature="629:676" ph="..." />
           </folding>
         </state>
       </provider>
