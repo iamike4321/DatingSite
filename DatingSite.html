@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>DatingSite</title>
- <link rel="stylesheet" href="css/Styles.css" -->
+    <!--<link rel="stylesheet" href="css/Styles.css" -->
 </head>
 <body>
 <h1>Please Enter Your Details For Our Dating Website!</h1>
@@ -33,7 +33,8 @@
     <legend>Your General Details</legend>
     <!-- General Information Table -->
     <!-- Info Table --> <table>
-    <!-- Name --> <tr>
+    <!-- Name -->
+    <tr>
     <td class="col1">
         <label for="name">Name:</label>
     </td>
@@ -43,10 +44,10 @@
 </tr>
     <!-- Gender --> <tr>
     <td class="col1">
-        <label for="gender">Gender:</label>
+        <label for="genderm">Gender:</label>
     </td>
     <td class="col2">
-        <input id="gender" name="gender" type="radio" required><label>Male</label>
+        <input id="genderm" name="gender" type="radio" required><label>Male</label>
         <input id="genderf" name="Gender" type="radio" required><label>Female</label>
     </td>
 </tr>
@@ -86,7 +87,7 @@
             <option value="AU">Australia</option>
             <option value="HN">Honduras</option>
             <option value="CNL">Country Not Listed</option>
-</select>
+        </select>
     </td>
 
 
@@ -155,9 +156,10 @@
         </td>
     </tr>
     <tr>
-        <td>
-            <label for="email2">Method To Contact you </label>
-             <input type="checkbox" id="email2">
+        <td> <!-- contact info -->
+            <label for="email2">Method to Contact you: </label>
+            Email:
+            <input type="checkbox" id="email2">
 
         </td>
     </tr>
