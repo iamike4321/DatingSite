@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="text/javascript">
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('#blah')
+                            .attr('src', e.target.result)
+                            .width(150)
+                            .height(200);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
     <meta charset="UTF-8">
     <title>DatingSite</title>
-    <!--<link rel="stylesheet" href="css/Styles.css" -->
+    <link rel="stylesheet" href="css/Styles.css">
 </head>
 <body>
 <h1>Please Enter Your Details For Our Dating Website!</h1>
@@ -14,8 +28,11 @@
             <td class="col1">
                 <label for="faceimg">Your Image:</label>
             </td>
+
+            <img id="blah" src="#" alt="your image" />
+
             <td class="col2">
-                <input id="faceimg" type="file" required>
+                <input type='file' onchange="readURL(this);" />
             </td>
         </tr>
         <tr>
@@ -47,8 +64,8 @@
         <label for="genderm">Gender:</label>
     </td>
     <td class="col2">
-        <input id="genderm" name="gender" type="radio" required><label>Male</label>
-        <input id="genderf" name="Gender" type="radio" required><label>Female</label>
+        <input id="genderm" name="gender" type="radio" required>Male
+        <input id="genderf" name="Gender" type="radio" required>Female
     </td>
 </tr>
     <!-- Age --> <tr>
@@ -95,31 +112,33 @@
 </tr>
 </table>
 </fieldset>
-<br>
-<!-- Your Indicators --> <fieldset>
-    <legend>Your Indicators</legend>
-    <!-- Info Table --> <table>
-    <!-- Height Slider --> <tr>
-    <td class="col1">
-        <label for="height">Height:</label>
-    </td>
-    <td>
-        <label class="sliderlabel">Short</label>
-        <input id="height" type="range" min="0" max="100">
-        <label class="sliderlabel">Tall</label>
-    </td>
-</tr>
-    <!-- Salary Slider --> <tr>
-    <td class="col1">
-        <label for="salary">Salary:</label>
-    </td>
-    <td>
-        <label class="sliderlabel">Poor</label>
-        <input id="salary" type="range" min="0" max="100">
-        <label class="sliderlabel">Rich</label>
-    </td>
-</tr>
+<fieldset>
+<legend>Your Indicators</legend>
+<!-- Info Table --> <table>
+    <tr>
+        <td class="col1">
+            <label for="height">Height:</label>
+            <br>
+            <label for="salary">Salary:</label>
+        </td>
+        <td class="slider" id="minlabels">
+            Short
+            <br>
+            Poor
+        </td>
+        <td class="sliders">
+            <input id="height" type="range" min="0" max="100">
+            <br>
+            <input id="salary" type="range" min="0" max="100">
+        </td>
+        <td class="sliders" id="maxlabels">
+            Tall
+            <br>
+            Rich
+        </td>
+    </tr>
 </table>
+<br>
 </fieldset>
 <br>
 <!-- Contact Information --> <fieldset>
@@ -138,7 +157,7 @@
         <label for="mobile">Mobile Phone:</label>
     </td>
     <td class="col2">
-        <input id="mobile" type="tel">
+        <input id="mobile" type="number">
     </td>
 </tr>
     <tr> <!-- address -->
@@ -156,17 +175,19 @@
         </td>
     </tr>
     <tr>
-        <td> <!-- contact info -->
-            <label for="email2">Method to Contact you: </label>
-            Email:
-            <input type="checkbox" id="email2">
-
+        <td class="col1">
+            <label for="contactmethod" >Method(s) to Contact You:</label>
+        </td>
+        <td class="col2">
+            <input name="checkbox" id="contactmethod" type="checkbox" class="methods">Email
+            <input name="checkbox" type="checkbox" class="methods">Whatsapp
+            <input name="checkbox" type="checkbox" class="methods">In-App Chat
         </td>
     </tr>
 </table>
 </fieldset>
 
-
+<input type="submit">
 
 </body>
 </html>

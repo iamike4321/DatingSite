@@ -1,2 +1,12 @@
-fieldset {border:solid ;border-color: yellow; background-color: lightyellow; border-width: 10px;}
-label {display: inline-block; width:180px ; text-align: right}
+h1 { font-family: Arial}
+fieldset {width: 720px; border: solid; border-width: 10px; border-color: yellow; background-color: lightyellow; margin-bottom: 10px;}
+label {display:inline-block; width: 180px;}
+textarea {width: 360px; height: 50px}
+.col1 {text-align: right; vertical-align: top}
+.col2 {text-align: left}
+.sliderlabel {text-align: center; background-color: crimson}
+.sliders {row-span: 2;}
+#minlabels {width: 45px; ; background-color: #B7000C; text-align: center}
+#maxlabels {width: 45px; ; background-color: #920081; text-align: center}
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
