@@ -6,7 +6,7 @@ textarea {width: 360px; height: 50px}
 .col2 {text-align: left}
 .sliderlabel {text-align: center; background-color: crimson}
 .sliders {row-span: 2;}
-#minlabels {width: 45px; ; background-color: #B7000C; text-align: center}
-#maxlabels {width: 45px; ; background-color: #920081; text-align: center}
-article, aside, figure, footer, header, hgroup,
+#minlabels {width: 45px; ; background-color: #B7000C; text-align: center; color: white}
+#maxlabels {width: 45px; ; background-color: #920081; text-align: center; color: white}
+article, aside, figure, footer, header,
 menu, nav, section { display: block; }
